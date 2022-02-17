@@ -23,7 +23,7 @@ function App() {
             This is my Inside Header
           </h3>
           <p>My Number is: {number}</p>
-          <p>Name: {singer.name} and Profession: {singer.job}</p>
+          <p style={{ name: 'Dr. Mahfuz', job: 'Singer' }}>Name: {singer.name} and Profession: {singer.job}</p>
           <p style={singerStyle}>Real Singer: {singer2.name} and Original: {singer2.job}</p>
         </div>
         <img src={logo} className="App-logo" alt="logo" />
